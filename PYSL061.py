@@ -5,7 +5,7 @@ import numpy as np
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.models import load_model
 
-from tensorflow.keras.applications.vgg16 import preprocess_input
+from tensorflow.keras.applications.mobilenet_v2_100_224 import preprocess_input
 
 model = load_model('Pokemon.h5',compile=False)
 
